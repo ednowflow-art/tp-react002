@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+.app {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.titre-principal {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 24px;
+}
+
+/* ----- Formulaire ----- */
+.formulaire {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 28px;
+}
+
+.formulaire h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.champ {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.champ:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ----- Boutons ----- */
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-rendre {
+  background-color: #f59e0b;
+}
+
+.btn-rendre:hover {
+  background-color: #d97706;
+}
+
+/* ----- Carte de livre ----- */
+.carte {
+  background: white;
+  border: 1px solid #e2e5e9;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.carte h3 {
+  margin: 0 0 6px;
+}
+
+.carte p {
+  margin: 4px 0;
+}
+
+.auteur {
+  color: #666;
+}
+
+.statut {
+  display: inline-block;
+  margin: 10px 0 14px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.statut-disponible {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.statut-emprunte {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
